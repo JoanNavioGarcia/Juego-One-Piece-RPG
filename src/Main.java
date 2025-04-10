@@ -14,7 +14,7 @@ public class Main {
 
             // Comprobar si el input es un numero.
             if (!input.hasNextInt()){
-                System.out.println("--------------------------------------------------\n" +"| Error de Programa: Debes introducir un numero. |\n" + "--------------------------------------------------\n");
+                System.out.println("\n" + "--------------------------------------------------\n" +"| Error de Programa: Debes introducir un numero. |\n" + "--------------------------------------------------\n");
                 input.next();
                 continue;
                 }
@@ -31,7 +31,7 @@ public class Main {
                     System.out.println("Funciona");
                     break;
                 default:
-                    System.out.println("Error de Programa: Debes Introducir un numero de la opcion del menu.");
+                    System.out.println("\n" + "--------------------------------------------\n" + "| Error de Programa: Numero fuera de rango |\n" + "--------------------------------------------\n");
             }
         }
     }
