@@ -7,9 +7,9 @@ public class Personaje {
     protected int salud;
     protected int defensa;
     protected int velocidad;
-    protected int recompensa;
+    protected long recompensa;
 
-    public Personaje(String nombre, String atributo,int ataque, int salud,int defensa, int velocidad, int recompensa){
+    public Personaje(String nombre, String atributo,int ataque, int salud,int defensa, int velocidad, long recompensa){
         this.nombre = nombre;
         this.atributo = atributo;
         this.ataque = ataque;
